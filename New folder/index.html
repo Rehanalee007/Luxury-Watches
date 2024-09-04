@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>transperent navigation bar</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/react/18.3.1/cjs/react.production.min.js">
+        
+    </head>
+
+    <body>
+        <marquee behavior="well come to my store" direction="well come to my store">well come to my store</marquee>
+        <header class="navbar">
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="product.html">product</a>
+                <a href="blog.html">blog</a>
+                <a href="contact.html">contact</a>
+            </nav>
+        </header>
+        <video autoplay loop muted plays-inline class="backvideo">
+            <source src="assets\video\Wrist Watch Commercial _ Cinematic 3D Animation.mp4"type="video/mp4">
+        </video>
+ 
+        <h1>luxury store</h1>
+        <h4>DEAR CUSTMOR<br>here you can buy all kind of luxury watches like a <mark>jecob ,rolex,omega,empiors,bugatti</mark> .etc buy watches from this store and get 50%off </h4>
+        
+        <div class="product-container">
+        <div class="card">
+            <img src="assets/image/css.png">
+            <h1>watch</h1>
+            <p> this is my luxyry store watche</p>
+            <h4>5555$</h4>
+            <i class="fa fa-star-half-o checked"></i>
+            <button>view collections</button>
+        </div>
+        <div class="card">
+            <img src="assets/image/dddd.jpg">
+            <h1>watch</h1>
+            <p> this is my luxyry store watche</p>
+            <h4>5555$</h4>
+            <button>view collections</button>
+        </div>
+        </div><br>
+       
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section contact-info">
+                    <h3>Contact Us</h3>
+                    <p>Email:clasicwatches@gmail.com</p>
+                    <p>Phone: +123 456 7890</p>
+                    <p>Address: 1234 Street Name, City, Country</p>
+                </div>
+                </div>
+                <div class="footer-section payment-methods">
+                    <h3>Payment Methods</h3>
+                    <div class="payment-icons">
+                        <img src="assets/image/Visa.webp" alt="Visa" />
+                        <img src="assets/image/master.webp" alt="MasterCard" />
+                        <img src="assets/image/Paypal-Curved.webp" alt="PayPal" />
+                        <img src="assets/image/american_express-64.webp" alt="American Express" />
+                        <img src="assets/image/Google_Pay_GPay_Logo-64.webp" alt="Gpay" />
+                        <img src="assets/image/_bitcoin-64.webp" alt="bitcoin" />
+                        <img src="assets/image/payment_method_skrill-64.webp" alt="Skrill" />
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Your E-Commerce Site. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+        <script>
+            // When the user scrolls down 20px from the top of the document, slide down the navbar
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("navbar").style.top = "0";
+              } else {
+                document.getElementById("navbar").style.top = "-50px";
+              }
+            }
+            </script>
+    </body>
+</html>
